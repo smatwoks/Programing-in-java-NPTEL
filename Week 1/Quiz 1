@@ -33,5 +33,90 @@ Answer is 'd'
  
 Answer is 'c'
 
-4.
+4.Which of the following is not a keyword in java? 
+ a.final
+ b.super
+ c.integer
+ d.extend
+
+Answer is 'd'
+
+5.Consider the following program.
+    public class Test{
+    public static void main(String[] args) {
+     int a=5;
+       a+=6;
+    switch (a-1) {
+        case 5: System.out.print ("10") ;break;
+        case 10: System.out.print ("15");
+        system. out.print(((a%2 ==0) 2 "-even-"
+        default: System.out.print(a%2);
+        }
+   }
+
+What will be the output of the program if
+  a. 15-even-1
+  b. 15-odd-1
+  c. 15-even-
+  d. 15-odd-
+
+Answer is 'c'
+
+
+6.C:\new>javac Simple.java
+  'javac' is not recognized as an internal or external command ,operable program or batch file.
+Why does the error "javac is not recognized as an internal or external command” occur?
+   a.Path is not set for java
+   b.JDK is not correctly installed
+   c..class file is not found
+   d.javac jar is missing from java library
+   
+Answer is 'a'
+
+
+7.Following is a piece of code where some parts of a statement is missing:
+        public class Question{
+        public static void main(String args[]){
+        char nptel[]={"1','2','3','4','5",'6"};
+        System.out.print ( :
+
+In the following. some options are given. You have to choose the correct option(s) for the
+argument in System.out.print() function to print the value 102.
+
+  a.nptel[nptel-length-2] + nptel[0]
+  b.nptel[0] + nptel [nptel-Jength-2]
+  c."" + nptel[nptel.length-2] + nptel[0]
+  d."" + nptel[0] + nptel[nptel.length-2]
+  
+Answer is 'a,b'
+
+
+8.Which of the following concept that Java doesn’t support?
+  a. inheritance
+  b. serialization
+  c. goto
+  d. array
+  
+Answer is 'c'
+
+
+9.The subsystem of JVM that is used to load class file is known as?
+   a.Classloader
+   b.JRE
+   c.JDK
+   d.Compiler
+Answer is 'a'
+
+
+10.What is the value of total after executing the following code snippet?
+    int mark = 5;
+    int grace = 2:
+    int total = mark + (mark > 6 ? ++grace : --grace);
+  a.6
+  b.5
+  c.4
+  d.3
+Answer is 'a'
+    
+    
 
