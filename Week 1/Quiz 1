@@ -1,1 +1,37 @@
-https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc23_cs49/a1q1.PNG
+1.What is the incorrect statement about bytecode?
+ a.Java when compiles the source code, it converts it to bytecode.
+ b.JVM (Java Virtual Machine) is an interpreter of bytecode.
+ c.Bytecode is not portable and it needs to be compiled separately for each platform.
+ d.JVM offers a protected environment which helps in enhanced safety for the system.
+
+Answer is 'c'
+
+2.Consider the following program
+      public class Test {
+      public static void main(String[] args) {
+      /******* poolean b = false; *******/ //n1
+      String b = "false
+      switch (b){ // n2
+      case "False"
+      System. out.printin("a");
+      }
+      
+What is the output of the above code?
+ a.a
+ b.Compiler error due to line nl
+ c.Compiler error due to line n2
+ d.Print nothing
+
+Answer is 'd'
+
+
+3.Which one of the following is not a primitive datatype?
+ a. byte
+ b. short
+ c. class
+ d. long
+ 
+Answer is 'c'
+
+4.
+
