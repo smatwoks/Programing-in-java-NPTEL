@@ -39,7 +39,7 @@ Answer is 'c'
  c.integer
  d.extend
 
-Answer is 'd'
+Answer is 'c,d'
 
 5.Consider the following program.
     public class Test{
