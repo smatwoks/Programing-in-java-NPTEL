@@ -40,6 +40,12 @@ Test1(double l,double b,double h)
 double calculate()
 {
  return length*breadth*height;
+ }
+ 
+ 
+ 
+ 
+ 
  
  
  public static void main(String args[]){
