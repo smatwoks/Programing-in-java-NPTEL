@@ -22,7 +22,7 @@ class Question44 implements First, Second{
 // Call show() of Second interface.
 // Call show() of First interface.
 
-		Second.show();
+		Second.super.show();
 		First.super.show();
     
     
