@@ -1,0 +1,33 @@
+import java.util.Scanner;
+  
+  public class Question {
+  public static void main(String[] args) { 
+      int a, b;
+      Scanner input = new Scanner(System.in);
+    
+ 
+ 
+ //Read any two values for a and b.
+
+//Get the result of a/b;
+
+a=input.nextInt();
+b=input.nextInt();
+try{
+  int result=a/b;
+  System.out.println(result);
+}
+catch (ArithmeticException e) {
+         System.out.println ("Exception caught: Division by zero.");
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+ }
+ }
