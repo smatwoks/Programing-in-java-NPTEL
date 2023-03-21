@@ -1,0 +1,65 @@
+import java.util.Scanner;
+public class Question91{
+	public static void main(String args[]){
+		Scanner sc = new Scanner(System.in);
+		String input = sc.nextLine(); // Read as string, e.g., 5+6
+    
+    
+            // Declare and initialize the required variable(s)
+
+// Split the input string into character array
+
+/*
+Write your method to separate two operands
+and operators and then perform the required operation.
+*/
+
+// Print the output as stated in the question
+
+		char char1[] = input.toCharArray();
+		int outflag=0;
+		
+		double a=0.0;
+		double b=0.0;
+		double result=0.0;
+		String c="";
+		String d="";
+		
+		outerloop:
+		for(int i=0; i<char1.length; i++){
+			if(char1[i]=='+'||char1[i]=='-'||char1[i]=='/'||char1[i]=='X'||char1[i]=='='){
+				for(int j=0; j<i; j++){
+					c+=Character.toString(char1[j]);
+				}
+				a=Double.parseDouble(c);
+              	
+              	for(int k=i+1; k<char1.length; k++){
+					for(int j=i; j<char1.length; j++){
+					d+=Character.toString(char1[j]);
+				}
+						outflag=1;
+						b=Double.parseDouble(d);
+						if(char1[i]=='+'){
+							result=a+b;
+						}else if(char1[i]=='-'){
+							result=a-b;
+						}else if(char1[i]=='/'){
+							result=a/b;
+						}else if(char1[i]=='X'){
+							result=a*b;
+						}
+						break outerloop;
+					
+				}
+              
+            }
+        }      
+            int m=(int)result;  
+			System.out.print(input+" = "+m);
+      
+      
+      
+      
+  }
+}    
+		
