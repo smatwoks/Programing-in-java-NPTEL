@@ -17,7 +17,6 @@ public class DeleteData {
 ~~~THERE IS SOME INVISIBLE CODE HERE~~~
 
 
-// Execute the command in order to delete a row from the table
     		String s1="DELETE FROM PLAYERS WHERE UID = 1;"  ;	
 			stmt.executeUpdate(s1);
 
