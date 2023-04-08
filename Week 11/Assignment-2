@@ -15,7 +15,6 @@ public class UpdateData {
 
 ~~~THERE IS SOME INVISIBLE CODE HERE~~~
 
-// write SQL command to update table data
 
 
 query = " UPDATE PLAYERS SET First_Name ='Rama',Last_Name = 'Gopala', Age = 24  WHERE UID=1;";
