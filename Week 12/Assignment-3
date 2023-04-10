@@ -1,0 +1,28 @@
+import java.util.*;
+public class Question3{
+  public static void main(String[] args){
+      Scanner s1 = new Scanner(System.in);
+      
+      
+      //Read your first name in string
+     String first_name=s1.nextLine();
+    //Read  your last name in string
+        String last_name=s1.nextLine();
+
+     //Read  rollnumber in integer
+        int roll_number=s1.nextInt();
+
+    //Read  1st subject mark in float
+        float sub1=s1.nextFloat();
+
+    //Read  2nd subject mark in float
+	    float sub2=s1.nextFloat();
+
+// find the avg mark in the subject
+float avg=(sub1+sub2)/2;
+    //Print the record in the format: name+" "+rollnumber+" "+avg_mark
+   System.out.print(first_name+last_name+" "+roll_number+" "+avg);
+   
+   
+   }
+   }
