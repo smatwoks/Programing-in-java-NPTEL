@@ -1,0 +1,11 @@
+import java.util.*;
+public class Question5 { 
+    static int sum_odd_n(int n){ 
+          if(n==1)
+              return 1;
+           if (n <= 0) 
+                return 0;
+                
+                
+//Call the method recursively.
+ return 2*n-1 + sum_odd_n(n-1);	
